@@ -55,7 +55,7 @@
         txtmonthly_amount.Text = monthly_payment
 
 
-        Dim next_page As New Loading_page_5
+        Dim next_page As New Loading_page
 
         If (payment_method = "" Or payment_time = "" Or deposit = "" Or intrest = "" Or insurance = "" Or total_amount = "" Or monthly_payment = "") Then
             MessageBox.Show("You have not completed all questions on the form")

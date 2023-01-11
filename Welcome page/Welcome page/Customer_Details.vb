@@ -81,14 +81,15 @@
             customer_idenification_number = txtID_num.Text
         End If
 
+        'used to call the next form 
+        Dim next_page As New Loading_page_2
 
-        Dim next_form As New Loading_page_2
         'use to validate the text areas to make sure if every questions have been completed
         If (customer_name = "" Or customer_surname = "" Or customer_middle_name = "" Or customer_madien_name = "" Or customer_date_of_birth = "" Or customer_gender = "" Or customer_age.ToString = "" Or customer_cell.ToString = "" Or customer_marital_status = "" Or customer_idenification_number.ToString = "") Then
             MessageBox.Show("You have not entered some of the information")
         Else
             Me.Hide()
-            next_form.Show()
+            next_page.Show()
         End If
 
         'used to add the following options to the combox on the Payment Details page

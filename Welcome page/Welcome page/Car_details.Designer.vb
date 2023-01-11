@@ -22,6 +22,7 @@ Partial Class Car_details
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Car_details))
         Me.lblheader = New System.Windows.Forms.Label()
         Me.lblcar_brand = New System.Windows.Forms.Label()
         Me.lblcar_name = New System.Windows.Forms.Label()
@@ -43,7 +44,27 @@ Partial Class Car_details
         Me.btn_nextform = New System.Windows.Forms.Button()
         Me.txtcar_price = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.picchevrolet = New System.Windows.Forms.PictureBox()
+        Me.picaudi = New System.Windows.Forms.PictureBox()
+        Me.picfiat = New System.Windows.Forms.PictureBox()
+        Me.picford = New System.Windows.Forms.PictureBox()
+        Me.pichonda = New System.Windows.Forms.PictureBox()
+        Me.picjaguar = New System.Windows.Forms.PictureBox()
+        Me.picjeep = New System.Windows.Forms.PictureBox()
+        Me.picnissan = New System.Windows.Forms.PictureBox()
+        Me.picvolkswagen = New System.Windows.Forms.PictureBox()
+        Me.picvolvo = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.picchevrolet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picaudi, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picfiat, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picford, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pichonda, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picjaguar, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picjeep, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picnissan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picvolkswagen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picvolvo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblheader
@@ -202,7 +223,7 @@ Partial Class Car_details
         '
         'btnback
         '
-        Me.btnback.Location = New System.Drawing.Point(80, 420)
+        Me.btnback.Location = New System.Drawing.Point(426, 420)
         Me.btnback.Name = "btnback"
         Me.btnback.Size = New System.Drawing.Size(75, 23)
         Me.btnback.TabIndex = 10
@@ -229,7 +250,7 @@ Partial Class Car_details
         '
         'btn_nextform
         '
-        Me.btn_nextform.Location = New System.Drawing.Point(437, 420)
+        Me.btn_nextform.Location = New System.Drawing.Point(89, 420)
         Me.btn_nextform.Name = "btn_nextform"
         Me.btn_nextform.Size = New System.Drawing.Size(75, 23)
         Me.btn_nextform.TabIndex = 13
@@ -256,11 +277,131 @@ Partial Class Car_details
         Me.Label1.TabIndex = 15
         Me.Label1.Text = "ZAR"
         '
+        'picchevrolet
+        '
+        Me.picchevrolet.Image = CType(resources.GetObject("picchevrolet.Image"), System.Drawing.Image)
+        Me.picchevrolet.Location = New System.Drawing.Point(336, 86)
+        Me.picchevrolet.Name = "picchevrolet"
+        Me.picchevrolet.Size = New System.Drawing.Size(329, 160)
+        Me.picchevrolet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picchevrolet.TabIndex = 16
+        Me.picchevrolet.TabStop = False
+        Me.picchevrolet.Visible = False
+        '
+        'picaudi
+        '
+        Me.picaudi.Image = CType(resources.GetObject("picaudi.Image"), System.Drawing.Image)
+        Me.picaudi.Location = New System.Drawing.Point(336, 86)
+        Me.picaudi.Name = "picaudi"
+        Me.picaudi.Size = New System.Drawing.Size(329, 160)
+        Me.picaudi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picaudi.TabIndex = 17
+        Me.picaudi.TabStop = False
+        Me.picaudi.Visible = False
+        '
+        'picfiat
+        '
+        Me.picfiat.Image = CType(resources.GetObject("picfiat.Image"), System.Drawing.Image)
+        Me.picfiat.Location = New System.Drawing.Point(336, 86)
+        Me.picfiat.Name = "picfiat"
+        Me.picfiat.Size = New System.Drawing.Size(329, 160)
+        Me.picfiat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picfiat.TabIndex = 18
+        Me.picfiat.TabStop = False
+        Me.picfiat.Visible = False
+        '
+        'picford
+        '
+        Me.picford.Image = CType(resources.GetObject("picford.Image"), System.Drawing.Image)
+        Me.picford.Location = New System.Drawing.Point(336, 86)
+        Me.picford.Name = "picford"
+        Me.picford.Size = New System.Drawing.Size(329, 160)
+        Me.picford.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picford.TabIndex = 19
+        Me.picford.TabStop = False
+        Me.picford.Visible = False
+        '
+        'pichonda
+        '
+        Me.pichonda.Image = CType(resources.GetObject("pichonda.Image"), System.Drawing.Image)
+        Me.pichonda.Location = New System.Drawing.Point(336, 86)
+        Me.pichonda.Name = "pichonda"
+        Me.pichonda.Size = New System.Drawing.Size(329, 160)
+        Me.pichonda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pichonda.TabIndex = 20
+        Me.pichonda.TabStop = False
+        Me.pichonda.Visible = False
+        '
+        'picjaguar
+        '
+        Me.picjaguar.Image = CType(resources.GetObject("picjaguar.Image"), System.Drawing.Image)
+        Me.picjaguar.Location = New System.Drawing.Point(336, 86)
+        Me.picjaguar.Name = "picjaguar"
+        Me.picjaguar.Size = New System.Drawing.Size(329, 160)
+        Me.picjaguar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picjaguar.TabIndex = 21
+        Me.picjaguar.TabStop = False
+        Me.picjaguar.Visible = False
+        '
+        'picjeep
+        '
+        Me.picjeep.Image = CType(resources.GetObject("picjeep.Image"), System.Drawing.Image)
+        Me.picjeep.Location = New System.Drawing.Point(336, 86)
+        Me.picjeep.Name = "picjeep"
+        Me.picjeep.Size = New System.Drawing.Size(329, 160)
+        Me.picjeep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picjeep.TabIndex = 22
+        Me.picjeep.TabStop = False
+        Me.picjeep.Visible = False
+        '
+        'picnissan
+        '
+        Me.picnissan.Image = CType(resources.GetObject("picnissan.Image"), System.Drawing.Image)
+        Me.picnissan.Location = New System.Drawing.Point(336, 86)
+        Me.picnissan.Name = "picnissan"
+        Me.picnissan.Size = New System.Drawing.Size(329, 160)
+        Me.picnissan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picnissan.TabIndex = 23
+        Me.picnissan.TabStop = False
+        Me.picnissan.Visible = False
+        '
+        'picvolkswagen
+        '
+        Me.picvolkswagen.Image = CType(resources.GetObject("picvolkswagen.Image"), System.Drawing.Image)
+        Me.picvolkswagen.Location = New System.Drawing.Point(336, 86)
+        Me.picvolkswagen.Name = "picvolkswagen"
+        Me.picvolkswagen.Size = New System.Drawing.Size(329, 160)
+        Me.picvolkswagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picvolkswagen.TabIndex = 24
+        Me.picvolkswagen.TabStop = False
+        Me.picvolkswagen.Visible = False
+        '
+        'picvolvo
+        '
+        Me.picvolvo.Image = CType(resources.GetObject("picvolvo.Image"), System.Drawing.Image)
+        Me.picvolvo.Location = New System.Drawing.Point(336, 86)
+        Me.picvolvo.Name = "picvolvo"
+        Me.picvolvo.Size = New System.Drawing.Size(329, 160)
+        Me.picvolvo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picvolvo.TabIndex = 25
+        Me.picvolvo.TabStop = False
+        Me.picvolvo.Visible = False
+        '
         'Car_details
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(688, 467)
+        Me.ClientSize = New System.Drawing.Size(730, 485)
+        Me.Controls.Add(Me.picvolvo)
+        Me.Controls.Add(Me.picvolkswagen)
+        Me.Controls.Add(Me.picnissan)
+        Me.Controls.Add(Me.picjeep)
+        Me.Controls.Add(Me.picjaguar)
+        Me.Controls.Add(Me.pichonda)
+        Me.Controls.Add(Me.picaudi)
+        Me.Controls.Add(Me.picfiat)
+        Me.Controls.Add(Me.picford)
+        Me.Controls.Add(Me.picchevrolet)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtcar_price)
         Me.Controls.Add(Me.btn_nextform)
@@ -280,6 +421,16 @@ Partial Class Car_details
         Me.Text = "Car_details"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.picchevrolet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picaudi, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picfiat, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picford, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pichonda, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picjaguar, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picjeep, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picnissan, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picvolkswagen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picvolvo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -305,4 +456,14 @@ Partial Class Car_details
     Friend WithEvents btn_nextform As System.Windows.Forms.Button
     Friend WithEvents txtcar_price As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents picchevrolet As PictureBox
+    Friend WithEvents picaudi As PictureBox
+    Friend WithEvents picfiat As PictureBox
+    Friend WithEvents picford As PictureBox
+    Friend WithEvents pichonda As PictureBox
+    Friend WithEvents picjaguar As PictureBox
+    Friend WithEvents picjeep As PictureBox
+    Friend WithEvents picnissan As PictureBox
+    Friend WithEvents picvolkswagen As PictureBox
+    Friend WithEvents picvolvo As PictureBox
 End Class

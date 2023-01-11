@@ -80,6 +80,121 @@
             MessageBox.Show("You have not selected a vehical brand")
         End If
 
+        'used to display the logo of the car brand the end-user has selected
+        If (cmbcar_brand.Text = "Chevrolet") Then
+            picchevrolet.Visible = True
+            picaudi.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picjeep.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+            pichonda.Visible = False
+            picnissan.Visible = False
+        ElseIf (cmbcar_brand.Text = "Honda") Then
+            pichonda.Visible = True
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picjeep.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+            picnissan.Visible = False
+        ElseIf (cmbcar_brand.Text = "Nissan") Then
+            picnissan.Visible = True
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picjeep.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Ford") Then
+            picford.Visible = True
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picfiat.Visible = False
+            picjeep.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Fiat") Then
+            picfiat.Visible = True
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picjeep.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Jeep") Then
+            picjeep.Visible = True
+            picfiat.Visible = False
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picvolkswagen.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Volkswagen") Then
+            picvolkswagen.Visible = True
+            picjeep.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picvolvo.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Volvo") Then
+            picvolvo.Visible = True
+            picvolkswagen.Visible = False
+            picjeep.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+            picjaguar.Visible = False
+        ElseIf (cmbcar_brand.Text = "Jaguar") Then
+            picjaguar.Visible = True
+            picvolvo.Visible = False
+            picvolkswagen.Visible = False
+            picjeep.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+            picaudi.Visible = False
+        ElseIf (cmbcar_brand.Text = "Audi") Then
+            picaudi.Visible = True
+            picjaguar.Visible = False
+            picvolvo.Visible = False
+            picvolkswagen.Visible = False
+            picjeep.Visible = False
+            picfiat.Visible = False
+            picford.Visible = False
+            picnissan.Visible = False
+            pichonda.Visible = False
+            picchevrolet.Visible = False
+        End If
+
+
+
     End Sub
 
     Private Sub cmbcar_body_type_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbcar_body_type.SelectedIndexChanged
@@ -203,4 +318,6 @@
             next_page.Show()
         End If
     End Sub
+
+
 End Class
