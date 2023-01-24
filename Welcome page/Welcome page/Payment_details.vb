@@ -1,5 +1,12 @@
 ﻿Public Class Payment_details
 
+    Dim payment_method As String
+    Dim payment_time As Integer
+    Dim total_amount As Double
+    Dim deposit As Double
+    Dim intrest As Double
+    Dim insurance As Double
+    Dim monthly_payment As Double
     Private Sub btnexit_Click(sender As Object, e As EventArgs)
         'used to close the current window
         Me.Close()
@@ -9,34 +16,22 @@
         'used to check which options have been selected on the payment method and add the payment duration to it
         If (cmbpayment_method.Text = "Instalment") Then
             cmbpayment_duration.Items.Clear()
-            cmbpayment_duration.Items.Add("12")
-            cmbpayment_duration.Items.Add("24")
-            cmbpayment_duration.Items.Add("36")
-            cmbpayment_duration.Items.Add("48")
-            cmbpayment_duration.Items.Add("60")
-            cmbpayment_duration.Items.Add("72")
-            cmbpayment_duration.Items.Add("84")
-            cmbpayment_duration.Items.Add("96")
-            cmbpayment_duration.Items.Add("108")
-            cmbpayment_duration.Items.Add("120")
+            payment_time = cmbpayment_duration.Items.Add(12)
+            payment_time = cmbpayment_duration.Items.Add(24)
+            payment_time = cmbpayment_duration.Items.Add(36)
+            payment_time = cmbpayment_duration.Items.Add(48)
+            payment_time = cmbpayment_duration.Items.Add(60)
+            payment_time = cmbpayment_duration.Items.Add(72)
+            payment_time = cmbpayment_duration.Items.Add(84)
+            payment_time = cmbpayment_duration.Items.Add(96)
+            payment_time = cmbpayment_duration.Items.Add(108)
+            payment_time = cmbpayment_duration.Items.Add(120)
         Else
             cmbpayment_duration.Items.Clear()
-            cmbpayment_duration.Items.Add("1")
+            payment_time = cmbpayment_duration.Items.Add(1)
         End If
-    End Sub
-
-    Private Sub btndisplay_report_Click(sender As Object, e As EventArgs) Handles btndisplay_report.Click
-        Dim payment_method As String
-        Dim payment_time As Integer
-        Dim total_amount As Double
-        Dim deposit As Double
-        Dim intrest As Double
-        Dim insurance As Double
-        Dim monthly_payment As Double
-
 
         payment_method = cmbpayment_method.Text
-        payment_time = cmbpayment_duration.Text
 
         deposit = Integer.Parse(Car_details.txtcar_price.Text) * 0.01
         txtdeposit.Text = deposit
@@ -54,10 +49,12 @@
         monthly_payment = total_amount * (1 + (txtintrest_rate.Text * payment_time))
         txtmonthly_amount.Text = monthly_payment
 
+    End Sub
 
-        Dim next_page As New Loading_page
+    Private Sub btnshow_report_Click(sender As Object, e As EventArgs) Handles btnshow_report.Click
+        Dim next_page As New Loading_page_5
 
-        If (payment_method = "" Or payment_time = "" Or deposit = "" Or intrest = "" Or insurance = "" Or total_amount = "" Or monthly_payment = "") Then
+        If (payment_method = "" Or deposit.ToString = "" Or intrest.ToString = "" Or insurance.ToString = "" Or total_amount.ToString = "" Or monthly_payment.ToString = "") Then
             MessageBox.Show("You have not completed all questions on the form")
         Else
             Me.Hide()

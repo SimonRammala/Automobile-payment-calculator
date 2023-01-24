@@ -122,6 +122,12 @@
     <Compile Include="Loading_page_4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Loading_page_5.Designer.vb">
+      <DependentUpon>Loading_page_5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_page_5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -142,6 +148,12 @@
       <DependentUpon>Payment_details.vb</DependentUpon>
     </Compile>
     <Compile Include="Payment_details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_page.Designer.vb">
+      <DependentUpon>Report_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report_page.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -170,6 +182,9 @@
     <EmbeddedResource Include="Loading_page_4.resx">
       <DependentUpon>Loading_page_4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Loading_page_5.resx">
+      <DependentUpon>Loading_page_5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -178,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Payment_details.resx">
       <DependentUpon>Payment_details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_page.resx">
+      <DependentUpon>Report_page.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -38,13 +38,13 @@ Partial Class Payment_details
         Me.txtsum_amount = New System.Windows.Forms.TextBox()
         Me.txtmonthly_amount = New System.Windows.Forms.TextBox()
         Me.btnclear = New System.Windows.Forms.Button()
-        Me.btndisplay_report = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.btnshow_report = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -185,15 +185,6 @@ Partial Class Payment_details
         Me.btnclear.Text = "Clear"
         Me.btnclear.UseVisualStyleBackColor = True
         '
-        'btndisplay_report
-        '
-        Me.btndisplay_report.Location = New System.Drawing.Point(465, 353)
-        Me.btndisplay_report.Name = "btndisplay_report"
-        Me.btndisplay_report.Size = New System.Drawing.Size(96, 23)
-        Me.btndisplay_report.TabIndex = 17
-        Me.btndisplay_report.Text = "Display Report"
-        Me.btndisplay_report.UseVisualStyleBackColor = True
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -254,18 +245,27 @@ Partial Class Payment_details
         Me.Label14.TabIndex = 23
         Me.Label14.Text = "Months"
         '
+        'btnshow_report
+        '
+        Me.btnshow_report.Location = New System.Drawing.Point(358, 353)
+        Me.btnshow_report.Name = "btnshow_report"
+        Me.btnshow_report.Size = New System.Drawing.Size(84, 23)
+        Me.btnshow_report.TabIndex = 24
+        Me.btnshow_report.Text = "Show Report"
+        Me.btnshow_report.UseVisualStyleBackColor = True
+        '
         'Payment_details
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(840, 405)
+        Me.Controls.Add(Me.btnshow_report)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.btndisplay_report)
         Me.Controls.Add(Me.btnclear)
         Me.Controls.Add(Me.txtmonthly_amount)
         Me.Controls.Add(Me.txtsum_amount)
@@ -304,11 +304,11 @@ Partial Class Payment_details
     Friend WithEvents txtsum_amount As System.Windows.Forms.TextBox
     Friend WithEvents txtmonthly_amount As System.Windows.Forms.TextBox
     Friend WithEvents btnclear As System.Windows.Forms.Button
-    Friend WithEvents btndisplay_report As System.Windows.Forms.Button
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents btnshow_report As Button
 End Class

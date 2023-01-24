@@ -200,41 +200,41 @@
     Private Sub cmbcar_body_type_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbcar_body_type.SelectedIndexChanged
         'used to display the car price based on the car body type selected
         If (cmbcar_body_type.Text = "Cabriolet") Then
-            txtcar_price.Text = "3 000 000"
+            txtcar_price.Text = 50000
         ElseIf (cmbcar_body_type.Text = "Copue") Then
-            txtcar_price.Text = "55 000 000"
+            txtcar_price.Text = 835000
         ElseIf (cmbcar_body_type.Text = "Crew Bus") Then
-            txtcar_price.Text = "10 000 000"
+            txtcar_price.Text = 32900
         ElseIf (cmbcar_body_type.Text = "Double Cab") Then
-            txtcar_price.Text = "1 000 000"
+            txtcar_price.Text = 242900
         ElseIf (cmbcar_body_type.Text = "Extended Cab") Then
-            txtcar_price.Text = "35 000"
+            txtcar_price.Text = 242900
         ElseIf (cmbcar_body_type.Text = "Fastback") Then
-            txtcar_price.Text = "3 000 000"
+            txtcar_price.Text = 1175000
         ElseIf (cmbcar_body_type.Text = "Hatchback") Then
-            txtcar_price.Text = "29 000 000"
+            txtcar_price.Text = 224300
         ElseIf (cmbcar_body_type.Text = "Sedan") Then
-            txtcar_price.Text = "1 000 000"
+            txtcar_price.Text = 320000
         ElseIf (cmbcar_body_type.Text = "Sportback") Then
-            txtcar_price.Text = "7 000 000"
+            txtcar_price.Text = 734000
         ElseIf (cmbcar_body_type.Text = "Super Cab") Then
-            txtcar_price.Text = "23 000"
+            txtcar_price.Text = 599565
         ElseIf (cmbcar_body_type.Text = "Suv") Then
-            txtcar_price.Text = "12 000 000"
+            txtcar_price.Text = 58970
         ElseIf (cmbcar_body_type.Text = "Station Wagon") Then
-            txtcar_price.Text = "14 000 000"
+            txtcar_price.Text = 1000000
         ElseIf (cmbcar_body_type.Text = "Single Cab") Then
-            txtcar_price.Text = "30 000 000"
+            txtcar_price.Text = 367500
         ElseIf (cmbcar_body_type.Text = "Panel Van") Then
-            txtcar_price.Text = "20 000 000"
+            txtcar_price.Text = 482900
         ElseIf (cmbcar_body_type.Text = "Mpv") Then
-            txtcar_price.Text = "4 000 000"
+            txtcar_price.Text = 129000
         ElseIf (cmbcar_body_type.Text = "Mini bus") Then
-            txtcar_price.Text = "90 000 000"
+            txtcar_price.Text = 493900
         ElseIf (cmbcar_body_type.Text = "Lcv") Then
-            txtcar_price.Text = "22 000"
+            txtcar_price.Text = 179100
         ElseIf (cmbcar_body_type.Text = "King Cab") Then
-            txtcar_price.Text = "12 000 000"
+            txtcar_price.Text = 382852
         Else
             MessageBox.Show("You have not selected any vehicle body type")
         End If
