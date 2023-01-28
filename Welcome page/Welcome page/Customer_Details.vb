@@ -64,12 +64,19 @@
         'used to store the marital status of the end-user
         If (rdbmarried.Checked = True) Then
             customer_marital_status = "Married"
+            Report_page.lblclients_martial_status.Text = "Married"
         ElseIf (rdbdivorced.Checked = True) Then
             customer_marital_status = "Divorced"
+            Report_page.lblclients_martial_status.Text = "Divorced"
+
         ElseIf (rdbsingle.Checked = True) Then
             customer_marital_status = "Single"
+            Report_page.lblclients_martial_status.Text = "Single"
+
         ElseIf (rdbrather_not_say.Checked = True) Then
             customer_marital_status = "Rather not say"
+            Report_page.lblclients_martial_status.Text = "Rather not say"
+
         Else
             MessageBox.Show("You have not selected a specific marital status")
         End If
@@ -77,8 +84,10 @@
         'used to check which option is slected by the end-user, so the information can be stored on the variable
         If (rdbpassport_num.Checked = True) Then
             customer_idenification_number = txtpassport_num.Text
+            Report_page.lblclients_id_num.Text = txtpassport_num.Text
         ElseIf (rdbId_num.Checked = True) Then
             customer_idenification_number = txtID_num.Text
+            Report_page.lblclients_id_num.Text = txtID_num.Text
         End If
 
         'used to call the next form 
