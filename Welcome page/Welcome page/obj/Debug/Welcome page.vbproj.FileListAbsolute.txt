@@ -72,3 +72,26 @@ C:\Users\Thapelo\Desktop\SimonRammala\Automobile-payment-calculator\Welcome page
 C:\Users\Thapelo\Desktop\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.pdb
 C:\Users\Thapelo\Desktop\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page_5.resources
 C:\Users\Thapelo\Desktop\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Report_page.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\bin\Debug\Welcome page.exe.config
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\bin\Debug\Welcome page.exe
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\bin\Debug\Welcome page.pdb
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\bin\Debug\Welcome page.xml
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.vbproj.AssemblyReference.cache
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Car_details.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Customer_Details.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Employment_details.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Form1.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page_2.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page_3.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page_4.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Loading_page_5.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Resources.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Payment_details.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome_page.Report_page.resources
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.vbproj.GenerateResource.cache
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.vbproj.CoreCompileInputs.cache
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.exe
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.xml
+C:\Users\Thapelo\Source\Repos\SimonRammala\Automobile-payment-calculator\Welcome page\Welcome page\obj\Debug\Welcome page.pdb
