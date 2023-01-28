@@ -58,8 +58,19 @@ Partial Class Report_page
         Me.lblemp_occ_at_company = New System.Windows.Forms.Label()
         Me.lblemp_yearly_salary = New System.Windows.Forms.Label()
         Me.lblemp_company_tell_num = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lblcar_brand = New System.Windows.Forms.Label()
+        Me.lblcar_name = New System.Windows.Forms.Label()
+        Me.lblcar_body_type = New System.Windows.Forms.Label()
+        Me.lblcar_price = New System.Windows.Forms.Label()
+        Me.lbladd_features = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -97,7 +108,7 @@ Partial Class Report_page
         Me.GroupBox1.Controls.Add(Me.lblname)
         Me.GroupBox1.Location = New System.Drawing.Point(45, 104)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(264, 357)
+        Me.GroupBox1.Size = New System.Drawing.Size(286, 357)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Customer Details"
@@ -304,25 +315,35 @@ Partial Class Report_page
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Location = New System.Drawing.Point(352, 104)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(318, 176)
+        Me.GroupBox2.Size = New System.Drawing.Size(318, 208)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Employment Details"
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.lbladd_features)
+        Me.GroupBox3.Controls.Add(Me.lblcar_price)
+        Me.GroupBox3.Controls.Add(Me.lblcar_body_type)
+        Me.GroupBox3.Controls.Add(Me.lblcar_name)
+        Me.GroupBox3.Controls.Add(Me.lblcar_brand)
+        Me.GroupBox3.Controls.Add(Me.Label10)
+        Me.GroupBox3.Controls.Add(Me.Label9)
+        Me.GroupBox3.Controls.Add(Me.Label8)
+        Me.GroupBox3.Controls.Add(Me.Label7)
+        Me.GroupBox3.Controls.Add(Me.Label6)
         Me.GroupBox3.Location = New System.Drawing.Point(717, 104)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(168, 311)
+        Me.GroupBox3.Size = New System.Drawing.Size(339, 208)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Car Details"
         '
         'GroupBox4
         '
-        Me.GroupBox4.Location = New System.Drawing.Point(920, 104)
+        Me.GroupBox4.Location = New System.Drawing.Point(717, 322)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(121, 311)
+        Me.GroupBox4.Size = New System.Drawing.Size(339, 139)
         Me.GroupBox4.TabIndex = 4
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Payment Details"
@@ -376,9 +397,9 @@ Partial Class Report_page
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(352, 292)
+        Me.PictureBox1.Location = New System.Drawing.Point(352, 322)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(318, 169)
+        Me.PictureBox1.Size = New System.Drawing.Size(318, 139)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
@@ -386,38 +407,137 @@ Partial Class Report_page
         'lblemp_company_name
         '
         Me.lblemp_company_name.AutoSize = True
+        Me.lblemp_company_name.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblemp_company_name.Location = New System.Drawing.Point(203, 38)
         Me.lblemp_company_name.Name = "lblemp_company_name"
-        Me.lblemp_company_name.Size = New System.Drawing.Size(39, 13)
+        Me.lblemp_company_name.Size = New System.Drawing.Size(42, 20)
         Me.lblemp_company_name.TabIndex = 4
         Me.lblemp_company_name.Text = "Label6"
         '
         'lblemp_occ_at_company
         '
         Me.lblemp_occ_at_company.AutoSize = True
+        Me.lblemp_occ_at_company.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblemp_occ_at_company.Location = New System.Drawing.Point(203, 70)
         Me.lblemp_occ_at_company.Name = "lblemp_occ_at_company"
-        Me.lblemp_occ_at_company.Size = New System.Drawing.Size(39, 13)
+        Me.lblemp_occ_at_company.Size = New System.Drawing.Size(42, 20)
         Me.lblemp_occ_at_company.TabIndex = 5
         Me.lblemp_occ_at_company.Text = "Label7"
         '
         'lblemp_yearly_salary
         '
         Me.lblemp_yearly_salary.AutoSize = True
+        Me.lblemp_yearly_salary.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblemp_yearly_salary.Location = New System.Drawing.Point(203, 101)
         Me.lblemp_yearly_salary.Name = "lblemp_yearly_salary"
-        Me.lblemp_yearly_salary.Size = New System.Drawing.Size(39, 13)
+        Me.lblemp_yearly_salary.Size = New System.Drawing.Size(42, 20)
         Me.lblemp_yearly_salary.TabIndex = 6
         Me.lblemp_yearly_salary.Text = "Label8"
         '
         'lblemp_company_tell_num
         '
         Me.lblemp_company_tell_num.AutoSize = True
+        Me.lblemp_company_tell_num.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblemp_company_tell_num.Location = New System.Drawing.Point(203, 135)
         Me.lblemp_company_tell_num.Name = "lblemp_company_tell_num"
-        Me.lblemp_company_tell_num.Size = New System.Drawing.Size(39, 13)
+        Me.lblemp_company_tell_num.Size = New System.Drawing.Size(42, 20)
         Me.lblemp_company_tell_num.TabIndex = 7
         Me.lblemp_company_tell_num.Text = "Label9"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(28, 38)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(59, 13)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Car brand :"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(28, 70)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(58, 13)
+        Me.Label7.TabIndex = 1
+        Me.Label7.Text = "Car name :"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(28, 101)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(78, 13)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Car body type :"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(28, 135)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(55, 13)
+        Me.Label9.TabIndex = 3
+        Me.Label9.Text = "Car price :"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(28, 164)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(100, 13)
+        Me.Label10.TabIndex = 4
+        Me.Label10.Text = "Additional features :"
+        '
+        'lblcar_brand
+        '
+        Me.lblcar_brand.AutoSize = True
+        Me.lblcar_brand.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcar_brand.Location = New System.Drawing.Point(190, 38)
+        Me.lblcar_brand.Name = "lblcar_brand"
+        Me.lblcar_brand.Size = New System.Drawing.Size(48, 20)
+        Me.lblcar_brand.TabIndex = 5
+        Me.lblcar_brand.Text = "Label11"
+        '
+        'lblcar_name
+        '
+        Me.lblcar_name.AutoSize = True
+        Me.lblcar_name.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcar_name.Location = New System.Drawing.Point(190, 70)
+        Me.lblcar_name.Name = "lblcar_name"
+        Me.lblcar_name.Size = New System.Drawing.Size(48, 20)
+        Me.lblcar_name.TabIndex = 6
+        Me.lblcar_name.Text = "Label12"
+        '
+        'lblcar_body_type
+        '
+        Me.lblcar_body_type.AutoSize = True
+        Me.lblcar_body_type.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcar_body_type.Location = New System.Drawing.Point(190, 101)
+        Me.lblcar_body_type.Name = "lblcar_body_type"
+        Me.lblcar_body_type.Size = New System.Drawing.Size(48, 20)
+        Me.lblcar_body_type.TabIndex = 7
+        Me.lblcar_body_type.Text = "Label13"
+        '
+        'lblcar_price
+        '
+        Me.lblcar_price.AutoSize = True
+        Me.lblcar_price.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcar_price.Location = New System.Drawing.Point(190, 135)
+        Me.lblcar_price.Name = "lblcar_price"
+        Me.lblcar_price.Size = New System.Drawing.Size(48, 20)
+        Me.lblcar_price.TabIndex = 8
+        Me.lblcar_price.Text = "Label14"
+        '
+        'lbladd_features
+        '
+        Me.lbladd_features.AutoSize = True
+        Me.lbladd_features.Font = New System.Drawing.Font("Myanmar Text", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbladd_features.Location = New System.Drawing.Point(190, 163)
+        Me.lbladd_features.Name = "lbladd_features"
+        Me.lbladd_features.Size = New System.Drawing.Size(48, 20)
+        Me.lbladd_features.TabIndex = 9
+        Me.lbladd_features.Text = "Label15"
         '
         'Report_page
         '
@@ -437,6 +557,8 @@ Partial Class Report_page
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -478,4 +600,14 @@ Partial Class Report_page
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents lbladd_features As Label
+    Friend WithEvents lblcar_price As Label
+    Friend WithEvents lblcar_body_type As Label
+    Friend WithEvents lblcar_name As Label
+    Friend WithEvents lblcar_brand As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
 End Class

@@ -18,6 +18,11 @@
         lblemp_company_tell_num.Text = Employment_details.txtcompany_tell.Text
 
 
+        lblcar_brand.Text = Car_details.cmbcar_brand.Text
+        lblcar_name.Text = Car_details.cmbcar_name.Text
+        lblcar_body_type.Text = Car_details.cmbcar_body_type.Text
+        lblcar_price.Text = Car_details.txtcar_price.Text
+
 
     End Sub
 End Class
