@@ -1,6 +1,8 @@
 ﻿Public Class Customer_Details
 
     Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
+        'used to close the current page/ form
+        MessageBox.Show("Thanks for coming. Hope to see you again")
         Me.Close()
     End Sub
 
@@ -94,7 +96,7 @@
         Dim next_page As New Loading_page_2
 
         'use to validate the text areas to make sure if every questions have been completed
-        If (customer_name = "" Or customer_surname = "" Or customer_middle_name = "" Or customer_madien_name = "" Or customer_date_of_birth = "" Or customer_gender = "" Or customer_age.ToString = "" Or customer_cell.ToString = "" Or customer_marital_status = "" Or customer_idenification_number.ToString = "") Then
+        If (customer_name = "" Or customer_surname = "" Or customer_date_of_birth = "" Or customer_gender = "" Or customer_age.ToString = "" Or customer_cell.ToString = "" Or customer_marital_status = "" Or customer_idenification_number = "") Then
             MessageBox.Show("You have not entered some of the information")
         Else
             Me.Hide()

@@ -33,22 +33,6 @@
 
         payment_method = cmbpayment_method.Text
 
-        deposit = Integer.Parse(Car_details.txtcar_price.Text) * 0.01
-        txtdeposit.Text = deposit
-
-        intrest = Integer.Parse(Car_details.txtcar_price.Text) * 0.15
-        txtintrest_rate.Text = intrest
-
-        insurance = Integer.Parse(Car_details.txtcar_price.Text) * 0.02
-        txtinsurance.Text = insurance
-
-
-        total_amount = Integer.Parse(Car_details.txtcar_price.Text) + txtintrest_rate.Text
-        txtsum_amount.Text = total_amount
-
-        monthly_payment = total_amount * (1 + (txtintrest_rate.Text * payment_time))
-        txtmonthly_amount.Text = monthly_payment
-
     End Sub
 
     Private Sub btnshow_report_Click(sender As Object, e As EventArgs) Handles btnshow_report.Click
@@ -61,5 +45,35 @@
             next_page.Show()
         End If
 
+    End Sub
+
+    Private Sub cmbpayment_duration_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbpayment_duration.SelectedIndexChanged
+        If (cmbpayment_method.Text = "Instalment") Then
+
+            deposit = Integer.Parse(Car_details.txtcar_price.Text) * 0.01
+            txtdeposit.Text = deposit
+
+            intrest = Integer.Parse(Car_details.txtcar_price.Text) * 0.15
+            txtintrest_rate.Text = intrest
+
+            insurance = Integer.Parse(Car_details.txtcar_price.Text) * 0.02
+            txtinsurance.Text = insurance
+
+            total_amount = Integer.Parse(Car_details.txtcar_price.Text) + txtintrest_rate.Text
+            txtsum_amount.Text = total_amount
+
+            monthly_payment = total_amount * (1 + (txtintrest_rate.Text * payment_time))
+            txtmonthly_amount.Text = monthly_payment
+        Else
+            intrest = Integer.Parse(Car_details.txtcar_price.Text) * 0.15
+            txtintrest_rate.Text = intrest
+
+            total_amount = Integer.Parse(Car_details.txtcar_price.Text) + txtintrest_rate.Text
+            txtsum_amount.Text = total_amount
+
+            txtdeposit.Text = 0
+            txtinsurance.Text = 0
+            txtmonthly_amount.Text = 0
+        End If
     End Sub
 End Class

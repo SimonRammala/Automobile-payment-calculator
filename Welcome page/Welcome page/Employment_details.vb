@@ -26,12 +26,25 @@
         Dim next_page As New Loading_page_3
 
         'used to validate the page befor it opens the next page
-        If (company_name = "" Or ocupation = "" Or yearly_salary.ToString = "" Or company_tell_num.ToString = "") Then
+        If (ocupation = "" Or yearly_salary.ToString = "" Or company_tell_num.ToString = "") Then
             MessageBox.Show("You have not entered all the information")
         Else
             Me.Hide()
             next_page.Show()
         End If
 
+    End Sub
+
+    Private Sub btnexit_Click(sender As Object, e As EventArgs) Handles btnexit.Click
+        'used to exit the current page
+        MessageBox.Show("Thanks for coming. Hope to see you again")
+        Me.Close()
+    End Sub
+
+    Private Sub btnclear_Click(sender As Object, e As EventArgs) Handles btnclear.Click
+        txtcompany_name.Clear()
+        txtcompany_tell.Clear()
+        txtocupation.Clear()
+        txtsalary.Clear()
     End Sub
 End Class

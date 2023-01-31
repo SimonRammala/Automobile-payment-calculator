@@ -122,7 +122,7 @@ Partial Class Employment_details
         '
         'btnclear
         '
-        Me.btnclear.Location = New System.Drawing.Point(330, 291)
+        Me.btnclear.Location = New System.Drawing.Point(301, 291)
         Me.btnclear.Name = "btnclear"
         Me.btnclear.Size = New System.Drawing.Size(75, 23)
         Me.btnclear.TabIndex = 10

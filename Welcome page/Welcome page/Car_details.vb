@@ -11,6 +11,7 @@
 
     Private Sub btnclose_Click(sender As Object, e As EventArgs) Handles btnclose.Click
         'used to close the current programe
+        MessageBox.Show("Thanks for coming. Hope to see you again")
         Me.Close()
     End Sub
 
@@ -311,7 +312,7 @@
         Dim next_page As New Loading_page_4
 
         'used to validate the variable befor openinnig the next page 
-        If (car_body_type = "" Or car_brand = "" Or car_name = "" Or car_price = "" Or add_features = "") Then
+        If (car_body_type = "" Or car_brand = "" Or car_name = "" Or car_price = "") Then
             MessageBox.Show("Some of the information is not complted correctly")
         Else
             Me.Hide()
@@ -319,5 +320,11 @@
         End If
     End Sub
 
+    Private Sub btnclear_Click(sender As Object, e As EventArgs) Handles btnclear.Click
+        cmbcar_brand.Items.Add("")
+        cmbcar_name.Items.Add("")
+        cmbcar_body_type.Items.Add("")
+        txtcar_price.Clear()
 
+    End Sub
 End Class
