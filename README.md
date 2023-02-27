@@ -1,6 +1,8 @@
 # Automobile-payment-calculator-
 This automobile payment calculator, calculates your monthly automobile loan payment, as well as the payoff date. This will also display the total paid and total cost with interest. 
 
+file:///C:/Users/Thapelo/Pictures/Screenshots/Screenshot%20(21).png
+
 # How to run the form
 1. Either fork or download the project folder on to your Desktop.
     ## How to download the project
