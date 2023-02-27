@@ -2,14 +2,6 @@
 This automobile payment calculator, calculates your monthly automobile loan payment, as well as the payoff date. This will also display the total paid and total cost with interest. 
 
 # How the applications looks :
-![Screenshot (21)](https://user-images.githubusercontent.com/101131942/221556527-4ba379b3-6236-471d-9655-3cf43f417843.png)
-![Screenshot (12)](https://user-images.githubusercontent.com/101131942/221556721-f2547c39-e3da-4679-8a3d-4519bb83321d.png)
-![Screenshot (13)](https://user-images.githubusercontent.com/101131942/221556833-ec3595f3-1e52-478c-91f9-38b725e50e8e.png)
-![Screenshot (14)](https://user-images.githubusercontent.com/101131942/221556925-4a17cb7a-ef8d-4c79-b106-f193e6f6a5f8.png)
-![Screenshot (15)](https://user-images.githubusercontent.com/101131942/221557038-1afaf35b-3cb7-4d60-a9b5-f2ea9572ffe8.png)
-![Screenshot (16)](https://user-images.githubusercontent.com/101131942/221557126-f66593c7-d506-4434-9ee4-7f90e2895be0.png)
-![Screenshot (17)](https://user-images.githubusercontent.com/101131942/221557211-71c409c1-3a50-4ed9-b7f9-244ac946d897.png)
-![Screenshot (18)](https://user-images.githubusercontent.com/101131942/221557272-fdd82730-8e7a-4529-835d-a7bd6cbf8e91.png)
 ![Screenshot (19)](https://user-images.githubusercontent.com/101131942/221557374-809dc34e-284c-4de9-9305-cf34eac0d5fa.png)
 
 # How to run the form
