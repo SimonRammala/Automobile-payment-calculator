@@ -21,14 +21,11 @@ This automobile payment calculator, calculates your monthly automobile loan paym
 3. Make sure that the vb.net packages are all installed and up to date.
 4. Once the folder and IDE are all installed on you device. Open the folder which is named 'Automobile-payment-calculator-'
 5. Once in the folder you will see one folder called 'Welcome page', click on that folder.![Screenshot (22)](https://user-images.githubusercontent.com/101131942/221558098-a358033d-5e99-4ae8-89a3-cc51b9a69b98.png)
-
 6.  Once in the folder you will see these type of folders called Car logos, Welcome page, Welcome page.sln and the Welcome page.v11.![Screenshot (23)](https://user-images.githubusercontent.com/101131942/221558186-637242ac-b3c3-49d7-a3ba-dbb7852ed75d.png)
-
 7. Right click on the file named "Welcome page.sln" And open with Microsoft Visual studio 2022.![Screenshot (23)](https://user-images.githubusercontent.com/101131942/221558731-f3052c82-a80d-44cd-bfae-34d0062cb66c.png)
-
 8. On the tab bar click or select the View option. Under the View menu select the 'Solution Explorer'. This will show all the page and windows we are going to work on.
-9.  On the 'Solution Explorer' select the file with name "Form1.vb".![Screenshot (9)](https://user-images.githubusercontent.com/101131942/221559010-c7ef2285-0afb-45f2-a97b-7832b0bb380c.png)
-
+9.  On the 'Solution Explorer' select the file with name "Form1.vb".
+![Screenshot (9)](https://user-images.githubusercontent.com/101131942/221559675-555460ad-6b8b-4803-9d15-51f89eee04ae.png)
 10. When the 'Form1.vb [Design]' is open, click or select the "Start" button the the menu tab.This will run the application.
 
 # How the application performs the calculations
