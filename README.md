@@ -8,7 +8,7 @@ This automobile payment calculator, calculates your monthly automobile loan paym
 1. Either fork or download the project folder on to your Desktop.
     ## How to download the project
     Copy the code below in to your terminal or shell:
-        git clone https://github.com/SimonRammala/Automobile-payment-calculator-.git
+        #git clone https://github.com/SimonRammala/Automobile-payment-calculator-.git
 2. Open the folder with any IDE of you choice, but I would recommend you to download the Microsoft Visual studio 2022. To download the IDE follow the link: https://visualstudio.microsoft.com/vs/community/
 3. Make sure that the vb.net packages are all installed and up to date.
 4. Once the folder and IDE are all installed on you device. Open the folder which is named 'Automobile-payment-calculator-'
@@ -17,7 +17,9 @@ This automobile payment calculator, calculates your monthly automobile loan paym
 7. Right click on the file named "Welcome page.sln" And open with Microsoft Visual studio 2022.![Screenshot (23)](https://user-images.githubusercontent.com/101131942/221558731-f3052c82-a80d-44cd-bfae-34d0062cb66c.png)
 8. On the tab bar click or select the View option. Under the View menu select the 'Solution Explorer'. This will show all the page and windows we are going to work on.
 9.  On the 'Solution Explorer' select the file with name "Form1.vb".
+
 ![Screenshot (9)](https://user-images.githubusercontent.com/101131942/221559675-555460ad-6b8b-4803-9d15-51f89eee04ae.png)
+
 10. When the 'Form1.vb [Design]' is open, click or select the "Start" button the the menu tab.This will run the application.
 
 # How the application performs the calculations
